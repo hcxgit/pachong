@@ -7,6 +7,7 @@ from multiprocessing.pool import Pool
 GROUP_START = 1   # offset
 GROUP_END = 20
 #请求页面，返回值为json
+#更新一下
 def get_page(offset):
     params = {
         'offset': offset,
